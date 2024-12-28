@@ -1,0 +1,34 @@
+[
+    {
+        "category": "Advanced Programming",
+        "question": "what language do u use",
+        "options": [
+            "pyhton",
+            "python",
+            "css",
+            "C"
+        ],
+        "correct_answer": "python"
+    },
+    {
+        "category": "database",
+        "question": "sql is :",
+        "options": [
+            "a styling language",
+            "a Structured Query Language",
+            "a programming language"
+        ],
+        "correct_answer": "a Structured Query Language"
+    },
+    {
+        "category": "database",
+        "question": "What is the purpose of the SQL SELECT statement?",
+        "options": [
+            "To insert data into a database",
+            "To select data from a database",
+            "To delete data from a database",
+            "To update data in a database"
+        ],
+        "correct_answer": "To select data from a database"
+    }
+]
