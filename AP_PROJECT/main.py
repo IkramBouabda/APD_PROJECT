@@ -27,15 +27,15 @@ def get_and_display_categories(question_file):
             # Récupérer les catégories uniques
             categories = list({question["category"] for question in data if "category" in question})
             # Afficher les catégories avec des index
-            print(Fore.YELLOW + "Les catégories disponibles sont :")
+            print(Fore.YELLOW + "Choose a categorie :")
             for i, category in enumerate(categories):
-                print(Fore.GREEN + f"[{i}] {category}")
+                print(Fore.GREEN + f"{i} - {category}")
             return categories
     except FileNotFoundError:
-        print(Fore.RED + f"Erreur : Le fichier {question_file} est introuvable.")
+        print(Fore.RED + f"Error : {question_file} no such file")
         return []
     except json.JSONDecodeError:
-        print(Fore.RED + f"Erreur : Le fichier {question_file} contient des données non valides.")
+        print(Fore.RED + f"Error : The file {question_file} contains invalid data.")
         return []
 
 def main():
@@ -50,28 +50,28 @@ def main():
     if user_id not in user_data:
         name = input("Enter your name to register: ")
         user_data = register_user(user_id, name, user_data)
-    
+          
     # Afficher l'historique de l'utilisateur
     display_user_history(user_id, user_data)
     
     # Charger et afficher les catégories disponibles
     available_categories = get_and_display_categories(QUESTION_FILE)
     if not available_categories:
-        print(Fore.RED + "Aucune catégorie disponible. Vérifiez le fichier questions.json.")
+        print(Fore.RED + "No QCM yet, be back soon !")
         return
     
     # Demander à l'utilisateur de choisir une catégorie par son index, avec boucle
     selected_category = None
     while selected_category is None:
         try:
-            category_index = int(input("Entrez le numéro de la catégorie souhaitée : "))
+            category_index = int(input("Choose a category : "))
             if 0 <= category_index < len(available_categories):
                 selected_category = available_categories[category_index]
-                print(Fore.CYAN + f"Vous avez choisi la catégorie : {selected_category}")
+                print(Fore.CYAN + f"Say bissmiAllah we're starting a QCM : {selected_category}")
             else:
-                print(Fore.RED + "Erreur : Index de catégorie invalide. Réessayez.")
+                print(Fore.RED + "Error : Invalid Index of category. Retry.")
         except ValueError:
-            print(Fore.RED + "Erreur : Veuillez entrer un numéro valide.")
+            print(Fore.RED + "Error : Enter a valid number.")
     
     # Lancer le test pour la catégorie choisie
     administer_test(user_id, selected_category, questions, lambda u, c, s: add_test_result(u, c, s, user_data))
