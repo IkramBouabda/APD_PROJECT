@@ -5,12 +5,32 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
 
 ---
 
-## 🌟 Features
+## 🌟 Main Features
 
 - 🚀 **Add New Questions:** Easily add questions and answers to your quiz database.
 - 📜 **Review Questions:** View and edit the questions stored in your app.
 - 📊 **Take Quizzes:** Test your knowledge with a dynamic QCM experience.
 - 🎨 **Enhanced Console Interface:** Leveraging `colorama` and `rich` for a visually appealing experience.
+
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/IkramBouabda/AP_PROJECT.git
+   cd AP_PROJECT
+2. **Install Dependencies**
+Ensure you have Python 3.7+ installed, then run:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Application**
+   ```bash
+   python main.py
+## 🌟 All Features
+
+  
 - User Management:
 
    - Register new users 
@@ -28,21 +48,6 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
    - Display the correct answer for incorrect responses
    - Show the final score at the end of the test
 
----
-
-## 🛠️ Installation
-
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/IkramBouabda/AP_PROJECT.git
-   cd AP_PROJECT
-2. **Install Dependencies**
-Ensure you have Python 3.7+ installed, then run:
-   ```bash
-   pip install -r requirements.txt
-3. **Run the Application**
-   ```bash
-   python main.py
 ## 🎮 How to Use 
 
 1.**Launch the App**
