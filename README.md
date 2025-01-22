@@ -1,4 +1,3 @@
-
 # 📝 QCM App
 
 Welcome to **QCM App**, an intuitive Python-based application that lets you manage quizzes interactively via the console. Designed for simplicity and user-friendliness, this tool is perfect for students, educators, or anyone who loves quizzes! 🎉
@@ -12,68 +11,73 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
 - 📊 **Take Quizzes:** Test your knowledge with a dynamic QCM experience.
 - 🎨 **Enhanced Console Interface:** Leveraging `colorama` and `rich` for a visually appealing experience.
 
-
 ---
 
 ## 🛠️ Installation
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/IkramBouabda/AP_PROJECT.git
    cd AP_PROJECT
+   ```
 2. **Install Dependencies**
-Ensure you have Python 3.7+ installed, then run:
+   Ensure you have Python 3.7+ installed, then run:
    ```bash
    pip install -r requirements.txt
+   ```
 3. **Run the Application**
    ```bash
    python main.py
+   ```
+
 ## 🌟 All Features
 
-  
 - User Management:
 
-   - Register new users 
-   - Display previous scores and test dates for returning users
-   - Save user data in JSON
-   - timer for each question
+  - Register new users
+  - Display previous scores and test dates for returning users
+  - Save user data in JSON
+  - timer for each question
+
 - Question and Answer Management:
 
-   - Store questions and options in a structured JSON file 
-   - Validate user answers and compute a score
-   - Export results : export user scores to a text file 'user_results.txt' for easy tracking
+  - Store questions and options in a structured JSON file
+  - Validate user answers and compute a score
+  - Export results : export user scores to a text file 'user_results.txt' for easy tracking
+
 - Feedback and Scoring:
 
-   - Provide feedback for each question
-   - Display the correct answer for incorrect responses
-   - Show the final score at the end of the test
+  - Provide feedback for each question
+  - Display the correct answer for incorrect responses
+  - Show the final score at the end of the test
 
-## 🎮 How to Use 
+## 🎮 How to Use
 
 1.**Launch the App**
-   Run the app in your terminal to access the main menu.
-2.**Enter your id (or both id and username if you are new)**
-3.**Choose an Option**
+Run the app in your terminal to access the main menu. 2.**Enter your id (or both id and username if you are new)** 3.**Choose an Option**
 
-`1`- 
+`1`-
 
-`2`- 
+`2`-
 
-`3`- 
+`3`-
 
 `4`- exit.
 
 3.**Interactive Experience**
 
-   - Follow on-screen instructions for a smooth experience.
-   - Enjoy a colorful and responsive console interface!
-     
+- Follow on-screen instructions for a smooth experience.
+- Enjoy a colorful and responsive console interface!
 
 ---
+
 ## 📸 Screenshots
+
 - Main Menu
 - Quiz Session
+
 ---
+
 ## 🛑 Dependencies
 
 This application requires the following Python libraries to run smoothly:
@@ -82,15 +86,15 @@ This application requires the following Python libraries to run smoothly:
 - 📋 **[rich](https://pypi.org/project/rich/)**: Enhances the console with visually appealing tables, rules, and formatted text.
 
 ---
+
 ### 📦 Installation
 
 Install all the required dependencies by running the following command in your terminal:
 
-      
          pip install -r requirements.txt
 
 ## 📂 Project Structure
-    
+
        AP-PROJECT/
        │
        ├── main.py                    # Entry point for the application
@@ -98,30 +102,36 @@ Install all the required dependencies by running the following command in your t
        |   ├── testAdministaration.py # Logic for running quizzes
        ├── Questions/
        │   ├── question_manager.py    # Logic for managing questions
-       ├── Users 
-       |   ├── User_management.py     # Logic for managing users 
+       ├── Users
+       |   ├── User_management.py     # Logic for managing users
        ├── user.results.txt           # File to store user quiz results
        ├── requirements.txt           # Python dependencies
        └── README.md                  # Project documentation
+
 ## 🤝 Contributing
+
 Contributions are welcome! Follow these steps to contribute:
 
 1.Fork the repository.
 
 2.Create a feature branch:
-      
+
           git checkout -b feature/new-feature
+
 3.Commit changes:
-    
+
          git commit -m "Add new feature"
+
 4.Push to the branch:
-      
+
          git push origin feature/new-feature
+
 5.Open a pull request.
 
 ## 📧 Contact
+
 For questions or suggestions, feel free to reach out:
 
-GitHub: rymaatb IkramaBouabda Benhaikmeriem1 
+GitHub: rymaatb IkramaBouabda Benhaikmeriem1
 
 Email: rymaaitbraham@gmail.com

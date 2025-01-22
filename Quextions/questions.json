@@ -1,0 +1,156 @@
+[
+    {
+        "category": "Advanced Programming",
+        "question": "what language do u use",
+        "options": [
+            "pyhton",
+            "python",
+            "css",
+            "C"
+        ],
+        "correct_answer": "python"
+    },
+    {
+        "category": "database",
+        "question": "sql is :",
+        "options": [
+            "a styling language",
+            "a Structured Query Language",
+            "a programming language"
+        ],
+        "correct_answer": "a Structured Query Language"
+    },
+    {
+        "category": "database",
+        "question": "What is the purpose of the SQL SELECT statement?",
+        "options": [
+            "To insert data into a database",
+            "To select data from a database",
+            "To delete data from a database",
+            "To update data in a database"
+        ],
+        "correct_answer": "To select data from a database"
+    },
+    {
+        "category": "database",
+        "question": "What is the purpose of the SQL WHERE clause?",
+        "options": [
+            "To specify the table from which to select data",
+            "To filter records that meet a specified condition",
+            "To join multiple tables together",
+            "To sort records in ascending order"
+        ],
+        "correct_answer": "To filter records that meet a specified condition"
+    },
+    {
+        "category": "database",
+        "question": "What does the SQL LIKE operator do?",
+        "options": [
+            "Groups records based on a condition",
+            "Returns the largest value in a column",
+            "Searches for a specified pattern in a column"
+        ],
+        "correct_answer": "Searches for a specified pattern in a column"
+    },
+    {
+        "category": "database",
+        "question": "Which aggregate functions are commonly used with the GROUP BY statement?",
+        "options": [
+            "COUNT() MAX() MIN() SUM() AVG()",
+            "SELECT() INSERT() UPDATE() DELETE()",
+            "JOIN() UNION() INTERSECT() EXCEPT()",
+            "HAVING() WHERE() ORDER BY() DISTINCT()"
+        ],
+        "correct_answer": "COUNT() MAX() MIN() SUM() AVG()"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "What is the correct file extension for Python files?",
+        "options": [
+            ".pp",
+            ".pt",
+            ".py"
+        ],
+        "correct_answer": ".py"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "What is a correct syntax to exit the Python command line interface?",
+        "options": [
+            "exit()",
+            "stop()",
+            "end()"
+        ],
+        "correct_answer": "exit()"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "True or False: Indentation in Python is for readability only",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "Which character is used to define a Python comment:",
+        "options": [
+            "'",
+            "//",
+            "#",
+            "/*"
+        ],
+        "correct_answer": "#"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "What is a correct way to declare a Python variable?",
+        "options": [
+            "var x = 5",
+            "#x = 5",
+            "$x = 5",
+            "x = 5"
+        ],
+        "correct_answer": "x = 5"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "Dictionary items cannot be removed after the dictionary has been created.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "Which statement is a correct syntax to break out of a loop?",
+        "options": [
+            "end",
+            "return",
+            "break"
+        ],
+        "correct_answer": "break"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "What is the correct keyword for defining functions in Python?",
+        "options": [
+            "function",
+            "func",
+            "def"
+        ],
+        "correct_answer": "def"
+    },
+    {
+        "category": "Advanced Programming",
+        "question": "What is a function used for opening files?",
+        "options": [
+            "load()",
+            "run()",
+            "open()"
+        ],
+        "correct_answer": "open()"
+    }
+]
