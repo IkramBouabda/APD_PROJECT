@@ -20,14 +20,14 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
    ```bash
    git clone https://github.com/yourusername/qcm-app.git
    cd qcm-app
-2. **Install Dependencies
+2. **Install Dependencies**
 Ensure you have Python 3.7+ installed, then run:
    ```bash
    pip install -r requirements.txt
-3. **Run the Application
+3. **Run the Application**
    ```bash
    python main.py
-##🎮 How to Use
+## 🎮 How to Use
 Launch the App
 Run the app in your terminal to access the main menu.
 
@@ -47,7 +47,7 @@ Main Menu
 
 Quiz Session
 ---
-##🛑 Dependencies
+## 🛑 Dependencies
 This app requires the following Python libraries:
 
 colorama for console text coloring.
@@ -55,7 +55,7 @@ rich for table formatting and enhanced visuals.
 Install all dependencies with:
      
        pip install -r requirements.txt
-##📂 Project Structure
+## 📂 Project Structure
  
     qcm-app/
     │
@@ -65,7 +65,7 @@ Install all dependencies with:
     │   └── quiz_session.py      # Logic for running quizzes
     ├── requirements.txt       # Python dependencies
     └── README.md              # Project documentation
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository.
@@ -79,7 +79,7 @@ Push to the branch:
 
     git push origin feature/new-feature
 Open a pull request.
-##📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 📧 Contact
