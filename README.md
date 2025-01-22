@@ -39,12 +39,13 @@ Ensure you have Python 3.7+ installed, then run:
 `2`- 
 
 `3`- 
-`4`- to exit.
+
+`4`- exit.
 
 3.**Interactive Experience**
 
-  **-** Follow on-screen instructions for a smooth experience.
-  **-** Enjoy a colorful and responsive console interface!
+- Follow on-screen instructions for a smooth experience.
+- Enjoy a colorful and responsive console interface!
 
 ---
 ## 📸 Screenshots
