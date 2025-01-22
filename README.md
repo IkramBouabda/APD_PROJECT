@@ -49,10 +49,8 @@ Ensure you have Python 3.7+ installed, then run:
 
 ---
 ## 📸 Screenshots
-  Main Menu
-
-  
-  Quiz Session
+   Main Menu
+   Quiz Session
 ---
 ## 🛑 Dependencies
 
