@@ -1,5 +1,5 @@
-# APD_PROJECT
-# 📝 QCM App: Interactive Quiz Manager
+
+# 📝 QCM App
 
 Welcome to **QCM App**, an intuitive Python-based application that lets you manage quizzes interactively via the console. Designed for simplicity and user-friendliness, this tool is perfect for students, educators, or anyone who loves quizzes! 🎉
 
@@ -18,8 +18,8 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/yourusername/qcm-app.git
-   cd qcm-app
+   git clone https://github.com/IkramBouabda/AP_PROJECT.git
+   cd AP_PROJECT
 2. **Install Dependencies**
 Ensure you have Python 3.7+ installed, then run:
    ```bash
@@ -34,12 +34,11 @@ Ensure you have Python 3.7+ installed, then run:
 
 2.**Choose an Option**
 
-`1`- to add a new quiz question.
+`1`- 
 
-`2`- to display all questions.
+`2`- 
 
-`3`- to take a quiz.
-
+`3`- 
 `4`- to exit.
 
 3.**Interactive Experience**
@@ -50,6 +49,8 @@ Ensure you have Python 3.7+ installed, then run:
 ---
 ## 📸 Screenshots
   Main Menu
+
+  
   Quiz Session
 ---
 ## 🛑 Dependencies
@@ -92,12 +93,10 @@ Contributions are welcome! Follow these steps to contribute:
       
          git push origin feature/new-feature
 5.Open a pull request.
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-📧 Contact
+## 📧 Contact
 For questions or suggestions, feel free to reach out:
 
-GitHub: rymaatb
+GitHub: rymaatb IkramaBouabda Benhaikmeriem1 
 
 Email: rymaaitbraham@gmail.com
