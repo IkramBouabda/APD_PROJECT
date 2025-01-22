@@ -69,14 +69,17 @@ Install all the required dependencies by running the following command in your t
 
 ## 📂 Project Structure
     
-       qcm-app/
+       AP-PROJECT/
        │
-       ├── main.py                  # Entry point for the application
-       ├── utils/
-       │   ├── question_manager.py  # Logic for managing questions
-       │   └── quiz_session.py      # Logic for running quizzes
-       ├── requirements.txt         # Python dependencies
-       └── README.md                # Project documentation
+       ├── main.py                    # Entry point for the application
+       |__ QCM/
+       |   ├── testAdministaration.py # Logic for running quizzes
+       ├── Questions/
+       │   ├── question_manager.py    # Logic for managing questions
+       ├── Users 
+           ├── User_management.py   
+       ├── requirements.txt           # Python dependencies
+       └── README.md                  # Project documentation
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps to contribute:
 
