@@ -81,6 +81,7 @@ Install all the required dependencies by running the following command in your t
 Contributions are welcome! Follow these steps to contribute:
 
 1.Fork the repository.
+
 2.Create a feature branch:
       
           git checkout -b feature/new-feature
