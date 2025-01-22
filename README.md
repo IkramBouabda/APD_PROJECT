@@ -28,32 +28,39 @@ Ensure you have Python 3.7+ installed, then run:
    ```bash
    python main.py
 ## 🎮 How to Use
-Launch the App
-Run the app in your terminal to access the main menu.
 
-Choose an Option
+**Launch the App**
+   Run the app in your terminal to access the main menu.
 
-1 to add a new quiz question.
-2 to display all questions.
-3 to take a quiz.
-4 to exit.
-Interactive Experience
+2.**Choose an Option**
 
-Follow on-screen instructions for a smooth experience.
-Enjoy a colorful and responsive console interface!
+`1` to add a new quiz question.
+`2` to display all questions.
+`3` to take a quiz.
+`4` to exit.
+3.**Interactive Experience**
+
+  **-** Follow on-screen instructions for a smooth experience.
+  **-** Enjoy a colorful and responsive console interface!
+
 ---
 ## 📸 Screenshots
-Main Menu
-Quiz Session
+  Main Menu
+  Quiz Session
 ---
 ## 🛑 Dependencies
-This app requires the following Python libraries:
 
-colorama for console text coloring.
-rich for table formatting and enhanced visuals.
-Install all dependencies with:
-    ```bash
-     pip install -r requirements.txt
+This application requires the following Python libraries to run smoothly:
+
+- 🎨 **[colorama](https://pypi.org/project/colorama/)**: Adds beautiful colors to your console output, making the interface more user-friendly.
+- 📋 **[rich](https://pypi.org/project/rich/)**: Enhances the console with visually appealing tables, rules, and formatted text.
+
+### 📦 Installation
+
+Install all the required dependencies by running the following command in your terminal:
+
+      ```bash
+         pip install -r requirements.txt
 
 ## 📂 Project Structure
      ```bash
