@@ -55,6 +55,7 @@ This application requires the following Python libraries to run smoothly:
 - 🎨 **[colorama](https://pypi.org/project/colorama/)**: Adds beautiful colors to your console output, making the interface more user-friendly.
 - 📋 **[rich](https://pypi.org/project/rich/)**: Enhances the console with visually appealing tables, rules, and formatted text.
 
+---
 ### 📦 Installation
 
 Install all the required dependencies by running the following command in your terminal:
@@ -70,7 +71,6 @@ Install all the required dependencies by running the following command in your t
        ├── utils/
        │   ├── question_manager.py  # Logic for managing questions
        │   └── quiz_session.py      # Logic for running quizzes
-       ├── requirements.txt       # Python dependencies
        └── README.md              # Project documentation
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps to contribute:
