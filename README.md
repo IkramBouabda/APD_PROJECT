@@ -35,9 +35,13 @@ Ensure you have Python 3.7+ installed, then run:
 2.**Choose an Option**
 
 `1`- to add a new quiz question.
+
 `2`- to display all questions.
+
 `3`- to take a quiz.
+
 `4`- to exit.
+
 3.**Interactive Experience**
 
   **-** Follow on-screen instructions for a smooth experience.
@@ -60,11 +64,11 @@ This application requires the following Python libraries to run smoothly:
 
 Install all the required dependencies by running the following command in your terminal:
 
-      ```bash
+      
          pip install -r requirements.txt
 
 ## 📂 Project Structure
-     ```bash
+    
        qcm-app/
        │
        ├── main.py                  # Entry point for the application
@@ -78,13 +82,13 @@ Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository.
 Create a feature branch:
-       ```bash
+      
           git checkout -b feature/new-feature
 Commit changes:
-      ```bash
+    
          git commit -m "Add new feature"
 Push to the branch:
-      ```bash
+      
          git push origin feature/new-feature
 Open a pull request.
 ## 📜 License
