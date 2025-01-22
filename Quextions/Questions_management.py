@@ -9,7 +9,7 @@ init(autoreset=True, convert=True)
 console = Console()
 
 # File path
-QUESTIONS_FILE = "questions.json"
+QUESTIONS_FILE = "AP_PROJECT\Quextions\questions.json"
 
 # Load questions from JSON
 try:
