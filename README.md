@@ -11,6 +11,22 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
 - 📜 **Review Questions:** View and edit the questions stored in your app.
 - 📊 **Take Quizzes:** Test your knowledge with a dynamic QCM experience.
 - 🎨 **Enhanced Console Interface:** Leveraging `colorama` and `rich` for a visually appealing experience.
+- User Management:
+
+   - Register new users 
+   - Display previous scores and test dates for returning users
+   - Save user data in JSON
+   - timer for each question
+- Question and Answer Management:
+
+   - Store questions and options in a structured JSON file 
+   - Validate user answers and compute a score
+   - Export results : export user scores to a text file 'user_results.txt' for easy tracking
+- Feedback and Scoring:
+
+   - Provide feedback for each question
+   - Display the correct answer for incorrect responses
+   - Show the final score at the end of the test
 
 ---
 
@@ -27,12 +43,12 @@ Ensure you have Python 3.7+ installed, then run:
 3. **Run the Application**
    ```bash
    python main.py
-## 🎮 How to Use
+## 🎮 How to Use 
 
-**Launch the App**
+1.**Launch the App**
    Run the app in your terminal to access the main menu.
-
-2.**Choose an Option**
+2.**Enter your id (or both id and username if you are new)**
+3.**Choose an Option**
 
 `1`- 
 
@@ -44,8 +60,9 @@ Ensure you have Python 3.7+ installed, then run:
 
 3.**Interactive Experience**
 
-- Follow on-screen instructions for a smooth experience.
-- Enjoy a colorful and responsive console interface!
+   - Follow on-screen instructions for a smooth experience.
+   - Enjoy a colorful and responsive console interface!
+     
 
 ---
 ## 📸 Screenshots
@@ -77,7 +94,8 @@ Install all the required dependencies by running the following command in your t
        ├── Questions/
        │   ├── question_manager.py    # Logic for managing questions
        ├── Users 
-           ├── User_management.py   
+       |   ├── User_management.py     # Logic for managing users 
+       ├── user.results.txt           # File to store user quiz results
        ├── requirements.txt           # Python dependencies
        └── README.md                  # Project documentation
 ## 🤝 Contributing
