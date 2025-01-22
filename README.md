@@ -43,8 +43,8 @@ Follow on-screen instructions for a smooth experience.
 Enjoy a colorful and responsive console interface!
 ---
 ## 📸 Screenshots
-Main Menu
 
+**Main Menu**
 Quiz Session
 ---
 ## 🛑 Dependencies
@@ -53,10 +53,10 @@ This app requires the following Python libraries:
 colorama for console text coloring.
 rich for table formatting and enhanced visuals.
 Install all dependencies with:
-     
-       pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 ## 📂 Project Structure
- 
+   ```bash
     qcm-app/
     │
     ├── main.py                # Entry point for the application
@@ -70,13 +70,13 @@ Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository.
 Create a feature branch:
- 
+   ```bash
     git checkout -b feature/new-feature
 Commit changes:
-
+   ```bash
     git commit -m "Add new feature"
 Push to the branch:
-
+   ```bash
     git push origin feature/new-feature
 Open a pull request.
 ## 📜 License
@@ -85,5 +85,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 📧 Contact
 For questions or suggestions, feel free to reach out:
 
-GitHub: yourusername
-Email: your.email@example.com
+GitHub: rymaatb
+Email: rymaaitbraham@gmail.com
