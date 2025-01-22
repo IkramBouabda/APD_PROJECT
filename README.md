@@ -53,30 +53,31 @@ Welcome to **QCM App**, an intuitive Python-based application that lets you mana
 
 ## 🎮 How to Use
 
-1.**Launch the App**
-Run the app in your terminal to access the main menu. 2.**Enter your id (or both id and username if you are new)** 3.**Choose an Option**
+`1`-**Launch the App**
+Run the app in your terminal to start.
 
-`1`-
+`2`-**Enter your id (or both id and username if you are new)** 
 
-`2`-
+`3`-**Choose a category **
 
-`3`-
+`4`-**Then the test starts!**
 
-`4`- exit.
-
-3.**Interactive Experience**
+**Interactive Experience**
 
 - Follow on-screen instructions for a smooth experience.
 - Enjoy a colorful and responsive console interface!
 
 ---
+## :pencil:  How to add questions
 
-## 📸 Screenshots
+`1`-**Launch 'Questions_management.py'**
+Run in your terminal to access the management menu.
 
-- Main Menu
-- Quiz Session
-
----
+`2`-**Choose a option **
+      - Add Question : to add a new question to any category.
+      - Display Questions : a table will be displayed showing questions in each category.
+      - Save Questions : to make sure that the questions are added successfully.
+      - Exit
 
 ## 🛑 Dependencies
 
@@ -102,10 +103,13 @@ Install all the required dependencies by running the following command in your t
        |   ├── testAdministaration.py # Logic for running quizzes
        ├── Questions/
        │   ├── question_manager.py    # Logic for managing questions
+           ├── questions.json
        ├── Users
        |   ├── User_management.py     # Logic for managing users
+           ├── User_data.json
        ├── user.results.txt           # File to store user quiz results
        ├── requirements.txt           # Python dependencies
+       ├── user_results.txt           # user results so he can check them directly 
        └── README.md                  # Project documentation
 
 ## 🤝 Contributing
