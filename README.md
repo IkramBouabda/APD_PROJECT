@@ -80,17 +80,17 @@ Install all the required dependencies by running the following command in your t
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps to contribute:
 
-Fork the repository.
-Create a feature branch:
+1.Fork the repository.
+2.Create a feature branch:
       
           git checkout -b feature/new-feature
-Commit changes:
+3.Commit changes:
     
          git commit -m "Add new feature"
-Push to the branch:
+4.Push to the branch:
       
          git push origin feature/new-feature
-Open a pull request.
+5.Open a pull request.
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
@@ -98,4 +98,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 For questions or suggestions, feel free to reach out:
 
 GitHub: rymaatb
+
 Email: rymaaitbraham@gmail.com
