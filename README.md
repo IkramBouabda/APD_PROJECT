@@ -73,7 +73,7 @@ Run the app in your terminal to start.
 `1`-**Launch 'Questions_management.py'**
 Run in your terminal to access the management menu.
 
-`2`-**Choose a option **
+`2`-**Choose a option**
       - Add Question : to add a new question to any category.
       - Display Questions : a table will be displayed showing questions in each category.
       - Save Questions : to make sure that the questions are added successfully.
