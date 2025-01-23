@@ -58,7 +58,7 @@ Run the app in your terminal to start.
 
 `2`-**Enter your id (or both id and username if you are new)** 
 
-`3`-**Choose a category **
+`3`-**Choose a category**
 
 `4`-**Then the test starts!**
 
