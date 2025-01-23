@@ -138,4 +138,7 @@ For questions or suggestions, feel free to reach out:
 
 GitHub: rymaatb IkramaBouabda Benhaikmeriem1
 
-Email: rymaaitbraham@gmail.com
+Email: 
+   - rymaaitbraham@gmail.com
+   - meriembenhaikpro@gmail.com
+   - ikrambouabda14@gmail.com
